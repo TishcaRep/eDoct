@@ -52,6 +52,9 @@ Partial Class medicamento
         Me.Label7 = New System.Windows.Forms.Label()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
@@ -222,6 +225,9 @@ Partial Class medicamento
         '
         'TabPage3
         '
+        Me.TabPage3.Controls.Add(Me.Label15)
+        Me.TabPage3.Controls.Add(Me.Label14)
+        Me.TabPage3.Controls.Add(Me.Label13)
         Me.TabPage3.Controls.Add(Me.TextBox10)
         Me.TabPage3.Controls.Add(Me.TextBox9)
         Me.TabPage3.Controls.Add(Me.Button4)
@@ -237,7 +243,7 @@ Partial Class medicamento
         '
         'TextBox10
         '
-        Me.TextBox10.Location = New System.Drawing.Point(87, 58)
+        Me.TextBox10.Location = New System.Drawing.Point(87, 70)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(224, 20)
         Me.TextBox10.TabIndex = 4
@@ -255,7 +261,7 @@ Partial Class medicamento
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(139, 23)
         Me.Button4.TabIndex = 2
-        Me.Button4.Text = "Button4"
+        Me.Button4.Text = "Actualizar"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button3
@@ -264,15 +270,15 @@ Partial Class medicamento
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(139, 23)
         Me.Button3.TabIndex = 1
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "Buscar"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'DataGridView2
         '
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView2.Location = New System.Drawing.Point(20, 84)
+        Me.DataGridView2.Location = New System.Drawing.Point(20, 104)
         Me.DataGridView2.Name = "DataGridView2"
-        Me.DataGridView2.Size = New System.Drawing.Size(562, 376)
+        Me.DataGridView2.Size = New System.Drawing.Size(562, 356)
         Me.DataGridView2.TabIndex = 0
         '
         'TextBox5
@@ -339,6 +345,34 @@ Partial Class medicamento
         Me.Label8.TabIndex = 22
         Me.Label8.Text = "Nombre:"
         '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(48, 46)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(17, 18)
+        Me.Label15.TabIndex = 10
+        Me.Label15.Text = "o"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(48, 73)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(19, 13)
+        Me.Label14.TabIndex = 9
+        Me.Label14.Text = "Id:"
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(34, 16)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(47, 13)
+        Me.Label13.TabIndex = 8
+        Me.Label13.Text = "Nombre:"
+        '
         'medicamento
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -389,4 +423,7 @@ Partial Class medicamento
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Label15 As System.Windows.Forms.Label
+    Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents Label13 As System.Windows.Forms.Label
 End Class
