@@ -67,6 +67,7 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -124,6 +125,12 @@
     <Compile Include="pantallalog.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="usuario\medicamento.Designer.vb">
+      <DependentUpon>medicamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\medicamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="usuario\pasiente.Designer.vb">
       <DependentUpon>pasiente.vb</DependentUpon>
     </Compile>
@@ -146,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="pantallalog.resx">
       <DependentUpon>pantallalog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usuario\medicamento.resx">
+      <DependentUpon>medicamento.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="usuario\pasiente.resx">
       <DependentUpon>pasiente.vb</DependentUpon>
