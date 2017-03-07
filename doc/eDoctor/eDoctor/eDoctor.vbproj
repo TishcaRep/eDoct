@@ -124,6 +124,12 @@
     <Compile Include="pantallalog.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="usuario\pasiente.Designer.vb">
+      <DependentUpon>pasiente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\pasiente.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="login.resx">
@@ -140,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="pantallalog.resx">
       <DependentUpon>pantallalog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usuario\pasiente.resx">
+      <DependentUpon>pasiente.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

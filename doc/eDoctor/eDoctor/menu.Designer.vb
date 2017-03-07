@@ -57,33 +57,33 @@ Partial Class menu
         'PasienteToolStripMenuItem
         '
         Me.PasienteToolStripMenuItem.Name = "PasienteToolStripMenuItem"
-        Me.PasienteToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
-        Me.PasienteToolStripMenuItem.Text = "Pasiente"
+        Me.PasienteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PasienteToolStripMenuItem.Text = "Paciente"
         '
         'MedicamentoToolStripMenuItem
         '
         Me.MedicamentoToolStripMenuItem.Name = "MedicamentoToolStripMenuItem"
-        Me.MedicamentoToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.MedicamentoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.MedicamentoToolStripMenuItem.Text = "Medicamento"
         '
         'REceToolStripMenuItem
         '
         Me.REceToolStripMenuItem.Name = "REceToolStripMenuItem"
-        Me.REceToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.REceToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.REceToolStripMenuItem.Text = "Recetas"
         '
         'FacturasToolStripMenuItem
         '
         Me.FacturasToolStripMenuItem.Name = "FacturasToolStripMenuItem"
-        Me.FacturasToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.FacturasToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.FacturasToolStripMenuItem.Text = "Facturas"
         '
         'PasienteToolStripMenuItem1
         '
         Me.PasienteToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaRecetaToolStripMenuItem})
         Me.PasienteToolStripMenuItem1.Name = "PasienteToolStripMenuItem1"
-        Me.PasienteToolStripMenuItem1.Size = New System.Drawing.Size(63, 20)
-        Me.PasienteToolStripMenuItem1.Text = "Pasiente"
+        Me.PasienteToolStripMenuItem1.Size = New System.Drawing.Size(64, 20)
+        Me.PasienteToolStripMenuItem1.Text = "Paciente"
         '
         'NuevaRecetaToolStripMenuItem
         '
@@ -101,12 +101,13 @@ Partial Class menu
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(147, 22)
         Me.AboutToolStripMenuItem.Text = "Contactanos.."
         '
         'PictureBox1
         '
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox1.Image = Global.eDoctor.My.Resources.Resources.Image2
         Me.PictureBox1.Location = New System.Drawing.Point(0, 24)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(684, 238)
