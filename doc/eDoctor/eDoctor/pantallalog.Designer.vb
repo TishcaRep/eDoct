@@ -33,8 +33,9 @@ Partial Class pantallalog
         'ProgressBar1
         '
         Me.ProgressBar1.Location = New System.Drawing.Point(12, 227)
+        Me.ProgressBar1.Maximum = 388
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(476, 23)
+        Me.ProgressBar1.Size = New System.Drawing.Size(388, 23)
         Me.ProgressBar1.TabIndex = 1
         '
         'Label1

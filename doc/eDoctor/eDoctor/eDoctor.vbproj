@@ -68,6 +68,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Fabric.Plugin, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -91,17 +93,16 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="login.vb">
+    <Compile Include="Frlogin.designer.vb">
+      <DependentUpon>Frlogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frlogin.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="login.Designer.vb">
-      <DependentUpon>login.vb</DependentUpon>
-      <SubType>Form</SubType>
+    <Compile Include="menup.Designer.vb">
+      <DependentUpon>menup.vb</DependentUpon>
     </Compile>
-    <Compile Include="menu.Designer.vb">
-      <DependentUpon>menu.vb</DependentUpon>
-    </Compile>
-    <Compile Include="menu.vb">
+    <Compile Include="menup.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -157,11 +158,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="login.resx">
-      <DependentUpon>login.vb</DependentUpon>
+    <EmbeddedResource Include="Frlogin.resx">
+      <DependentUpon>Frlogin.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="menu.resx">
-      <DependentUpon>menu.vb</DependentUpon>
+    <EmbeddedResource Include="menup.resx">
+      <DependentUpon>menup.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
