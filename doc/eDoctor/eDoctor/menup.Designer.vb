@@ -57,25 +57,25 @@ Partial Class menup
         'PasienteToolStripMenuItem
         '
         Me.PasienteToolStripMenuItem.Name = "PasienteToolStripMenuItem"
-        Me.PasienteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PasienteToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
         Me.PasienteToolStripMenuItem.Text = "Paciente"
         '
         'MedicamentoToolStripMenuItem
         '
         Me.MedicamentoToolStripMenuItem.Name = "MedicamentoToolStripMenuItem"
-        Me.MedicamentoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.MedicamentoToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
         Me.MedicamentoToolStripMenuItem.Text = "Medicamento"
         '
         'REceToolStripMenuItem
         '
         Me.REceToolStripMenuItem.Name = "REceToolStripMenuItem"
-        Me.REceToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.REceToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
         Me.REceToolStripMenuItem.Text = "Recetas"
         '
         'FacturasToolStripMenuItem
         '
         Me.FacturasToolStripMenuItem.Name = "FacturasToolStripMenuItem"
-        Me.FacturasToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FacturasToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
         Me.FacturasToolStripMenuItem.Text = "Facturas"
         '
         'PasienteToolStripMenuItem1
@@ -88,7 +88,7 @@ Partial Class menup
         'NuevaRecetaToolStripMenuItem
         '
         Me.NuevaRecetaToolStripMenuItem.Name = "NuevaRecetaToolStripMenuItem"
-        Me.NuevaRecetaToolStripMenuItem.Size = New System.Drawing.Size(146, 22)
+        Me.NuevaRecetaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.NuevaRecetaToolStripMenuItem.Text = "Nueva Receta"
         '
         'HelpToolStripMenuItem
@@ -115,7 +115,7 @@ Partial Class menup
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
-        'menu
+        'menup
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -124,7 +124,7 @@ Partial Class menup
         Me.Controls.Add(Me.MenuStrip1)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Name = "menu"
+        Me.Name = "menup"
         Me.Text = "menu"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()

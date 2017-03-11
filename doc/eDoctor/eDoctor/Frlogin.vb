@@ -28,12 +28,14 @@ Public Class Frlogin
             oDataSet.Clear()
             oAdaptador.Fill(oDataSet, "edo_medico")
             If (oDataSet.Tables("edo_medico").Rows.Count() <> 0) Then
-                    MessageBox.Show("Welcome to system", "Sistema")
-                    sw = True
-                Else
-                    MessageBox.Show("Usuario y/o contraseña son incorrectos", "Sistema")
-                    sw = False
-                End If
+                MessageBox.Show("Welcome to system", "Sistema")
+                sw = True
+                Dim dr As DataRowView = BindingContext(oDataSet, "edo_medico").Current
+                idoc = dr("edo_medico_id")
+            Else
+                MessageBox.Show("Usuario y/o contraseña son incorrectos", "Sistema")
+                sw = False
+            End If
 
         Catch ex As Exception
            
@@ -43,10 +45,6 @@ Public Class Frlogin
     End Function
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         Close()
-    End Sub
-
-    Private Sub txtusuario_TextChanged(sender As System.Object, e As System.EventArgs) Handles txtusuario.TextChanged
-
     End Sub
 
     Private Sub Frlogin_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load

@@ -126,6 +126,12 @@
     <Compile Include="pantallalog.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="usuario\ayuda.Designer.vb">
+      <DependentUpon>ayuda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\ayuda.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="usuario\facturas.Designer.vb">
       <DependentUpon>facturas.vb</DependentUpon>
     </Compile>
@@ -156,6 +162,7 @@
     <Compile Include="usuario\recetas.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="variablesg.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Frlogin.resx">
@@ -173,11 +180,20 @@
     <EmbeddedResource Include="pantallalog.resx">
       <DependentUpon>pantallalog.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="usuario\ayuda.resx">
+      <DependentUpon>ayuda.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="usuario\medicamento.resx">
       <DependentUpon>medicamento.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="usuario\pacientenreceta.resx">
+      <DependentUpon>pacientenreceta.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="usuario\pasiente.resx">
       <DependentUpon>pasiente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usuario\recetas.resx">
+      <DependentUpon>recetas.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
