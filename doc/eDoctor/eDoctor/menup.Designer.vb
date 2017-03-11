@@ -57,25 +57,25 @@ Partial Class menup
         'PasienteToolStripMenuItem
         '
         Me.PasienteToolStripMenuItem.Name = "PasienteToolStripMenuItem"
-        Me.PasienteToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.PasienteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PasienteToolStripMenuItem.Text = "Paciente"
         '
         'MedicamentoToolStripMenuItem
         '
         Me.MedicamentoToolStripMenuItem.Name = "MedicamentoToolStripMenuItem"
-        Me.MedicamentoToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.MedicamentoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.MedicamentoToolStripMenuItem.Text = "Medicamento"
         '
         'REceToolStripMenuItem
         '
         Me.REceToolStripMenuItem.Name = "REceToolStripMenuItem"
-        Me.REceToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.REceToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.REceToolStripMenuItem.Text = "Recetas"
         '
         'FacturasToolStripMenuItem
         '
         Me.FacturasToolStripMenuItem.Name = "FacturasToolStripMenuItem"
-        Me.FacturasToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.FacturasToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.FacturasToolStripMenuItem.Text = "Facturas"
         '
         'PasienteToolStripMenuItem1
@@ -126,6 +126,7 @@ Partial Class menup
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "menup"
         Me.Text = "menu"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
