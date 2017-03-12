@@ -125,16 +125,34 @@
     <Compile Include="pantallalog.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="usuario\facturas.Designer.vb">
+      <DependentUpon>facturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\facturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="usuario\medicamento.Designer.vb">
       <DependentUpon>medicamento.vb</DependentUpon>
     </Compile>
     <Compile Include="usuario\medicamento.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="usuario\pacientenreceta.Designer.vb">
+      <DependentUpon>pacientenreceta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\pacientenreceta.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="usuario\pasiente.Designer.vb">
       <DependentUpon>pasiente.vb</DependentUpon>
     </Compile>
     <Compile Include="usuario\pasiente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usuario\recetas.Designer.vb">
+      <DependentUpon>recetas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="usuario\recetas.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
